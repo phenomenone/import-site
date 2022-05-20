@@ -1,6 +1,7 @@
 import React from "react";
 import Title from './Title';
 import content from "../content";
+import Block from "./Block";
 
 function App() {
   return (
@@ -9,47 +10,33 @@ function App() {
       <Title />
 
       <section>
-        <div class="parallax-one">
+        <div className="parallax-one">
           <h2> BOLIVIA </h2>
         </div>
       </section>
 
-      <section>
-        <div class="block">
-          <p>
-            <span class="first-character sc">B</span>
-            {content[0].paragraph1}
-          </p>
-          <p class="line-break margin-top-10"></p>
-          <p class="margin-top-10">
-            {content[0].paragraph2}
-          </p>
-        </div>
-      </section>
+      <Block 
+        capLetterColor="first-character bo" 
+        paragraph1={content[0].paragraph1} 
+        paragraph2={content[0].paragraph2}
+      />
 
       <section>
-        <div class="parallax-two">
+        <div className="parallax-two">
           <h2>ECUADOR</h2>
         </div>
       </section>
 
-      <section>
-        <div class="block">
-          <p>
-            <span class="first-character ec">E</span>
-            {content[0].paragraph1}
-          </p>
-          <p class="line-break margin-top-10"></p>
-          <p class="margin-top-10">
-            {content[0].paragraph2}
-          </p>
-        </div>
-      </section>
+      <Block 
+        capLetterColor="first-character ec" 
+        paragraph1={content[0].paragraph1} 
+        paragraph2={content[0].paragraph2}
+      />
 
       <section>
-        <div class="parallax-three">
+        <div className="parallax-three">
         <h2>CONTACTANOS</h2>
-          <div class="container">
+          <div className="container">
             <form action="action_page.php">
               {/* <label for="fname">First Name</label> */}
               <input
