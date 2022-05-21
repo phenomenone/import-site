@@ -3,6 +3,7 @@ import Title from './Title';
 import content from "../content";
 import Block from "./Block";
 import Paralax from "./Paralax";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
         form={true}
       />
 
+      <Footer />
+      
     </div>
   );
 }
