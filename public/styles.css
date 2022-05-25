@@ -282,7 +282,7 @@ a {
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: all 0.5s ease-in-out;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -290,7 +290,8 @@ a:hover {
   background-color: #b3b1ae7c;
   box-shadow: 2px 2px 10px #b8b6b6,
   -2px -2px 10px #f8f6f6;
-  text-size-adjust: 35px;
+  font-size: 20px;
+  transition: all 0.1s ease-in-out;
 }
 
 /* Media Queries */
