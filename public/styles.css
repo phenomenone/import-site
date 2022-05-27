@@ -4,6 +4,7 @@
 
 * {
   font-family: "Oswald", sans-serif;
+  
 }
 
 p {
@@ -16,6 +17,10 @@ p {
 /**************************/
 .margin-top-10 {
   padding-top: 10px;
+}
+
+#parallax-world-of-ugg {
+  margin: auto 3%;
 }
 
 /* Typography */
@@ -152,7 +157,7 @@ p {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   border-radius: 10px;
 }
 
@@ -172,7 +177,7 @@ p {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   border-radius: 10px;
 }
 
