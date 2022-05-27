@@ -28,7 +28,7 @@ function App() {
 
       <Paralax paralax="parallax-three" country="CONTACTANOS" form={true} />
 
-      <p>Copyrights {year} © Designed by Phenomenone. </p>
+      <p className="copy-rights">Copyrights {year} © Designed by Phenomenone. </p>
     </div>
   );
 }
