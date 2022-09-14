@@ -79,18 +79,19 @@ p {
 /* Section - Title */
 /**************************/
 #parallax-world-of-ugg .title {
-  background: white;
-  padding: 60px;
+  background: transparent;
   margin: 0 auto;
   text-align: center;
 }
 
 #parallax-world-of-ugg .title h1 {
+  color: white;
   font-size: 65px;
   letter-spacing: 8px;
 }
 
 #parallax-world-of-ugg .title h3 {
+  color: white;
   font-size: 25px;
   letter-spacing: 8px;
 }
@@ -128,12 +129,14 @@ p {
   font-size: 45px;
 }
 #parallax-world-of-ugg .parallax-one {
+  margin-top: 5%;
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1521043388745-6c3cb22e8550?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631);
+  /* background-image: url(https://images.unsplash.com/photo-1521043388745-6c3cb22e8550?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631); */
+  background-image: url(https://images.unsplash.com/photo-1605123308459-abb648aa4f66?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;

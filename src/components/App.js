@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./Title";
+// import Title from "./Title";
 import content from "../content";
 import Block from "./Block";
 import Paralax from "./Paralax";
@@ -8,9 +8,9 @@ function App() {
   let year = new Date().getFullYear();
   return (
     <div id="parallax-world-of-ugg">
-      <Title />
+      {/* <Title /> */}
 
-      <Paralax paralax="parallax-one" country="BOLIVIA" form={false} />
+      <Paralax paralax="parallax-one" country="" form={false} />
 
       <Block
         capLetterColor="first-character bo"
