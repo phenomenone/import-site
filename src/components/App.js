@@ -1,14 +1,16 @@
 import React from "react";
-// import Title from "./Title";
 import content from "../content";
 import Block from "./Block";
 import Paralax from "./Paralax";
+import Navbar from "./Navbar";
+
 
 function App() {
   let year = new Date().getFullYear();
   return (
     <div id="parallax-world-of-ugg">
-      {/* <Title /> */}
+
+      <Navbar />
 
       <Paralax paralax="parallax-one" country="" form={false} />
 
