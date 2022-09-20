@@ -7,12 +7,6 @@ function Form() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [fMessage, setFMessage] = useState('');
-
-
-
-  console.log(process.env.REACT_APP_MAILCHIMP_URL);
-  console.log(process.env.REACT_APP_MAILCHIMP_U);
-  console.log(process.env.REACT_APP_MAILCHIMP_ID);
   
   return (
     <div className="container">
