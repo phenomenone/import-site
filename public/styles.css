@@ -1,30 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 @import url(https://kit.fontawesome.com/a987ecc469.js);
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap); */
 
-:root {
-  font-family: 'Roboto Mono', monospace;
-  color:#3d3c3a;
+* {
+  font-family: "Oswald", sans-serif;
 }
-:root body {
-  margin: 0;
-  padding: 0;
-}
+
+/* Header - start */
 .page-header {
   position: fixed;
+  width: 80%;
   top: 0;
-  left: 0;
-  width: 100%;
-  backdrop-filter: blur(15px);
-  height: 80px;
+  right: 10%;
+  backdrop-filter: blur(10px);
   flex: content;
-  flex-direction: column;
   z-index: 1;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px #e7e6e6, -1px -3px 5px #e0dfdf;
 }
 .page-header-navbar {
   width: 100%;
-  height: 100%;
 }
 .page-header-navbar ul {
   list-style: none;
@@ -34,56 +31,27 @@
   margin: 0;
   padding: 0;
 }
-.page-container {
-  background-position: center;
-  background-size: cover;
-  width:100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #d2673f;
-}
-.hero-section-title {
-  backdrop-filter: blur(10px);
-  padding: 30px;
-  border-radius: 5px;
-  animation: blink 1s ease-in-out infinite alternate;
-}
+
 .page-header-navbar ul li {
   height: 80px;
   line-height: 80px;
   text-align: center;
   width: 100%;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .page-header-navbar ul li:hover {
-  box-shadow: 5px 5px 25px #d2673f, -5px -5px 25px #d2673f;
-  transition: .2s ease-in-out;
+  box-shadow: 3px 4px 10px #b8b7b7, -3px -4px 10px #363636;
+  transition: .5s ease-in-out;
 }
-@keyframes blink {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-* {
-  font-family: "Oswald", sans-serif;
-}
+
 
 p {
   text-align: center;
 }
 
-.contact-form {
-  width: 100%;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-}
+
+/* Header - End*/
 
 /* Helpers */
 
@@ -197,7 +165,7 @@ p {
   font-size: 45px;
 }
 #parallax-world-of-ugg .parallax-one {
-  margin-top: 5%;
+  margin-top: 7%;
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
