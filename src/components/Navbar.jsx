@@ -2,14 +2,15 @@ import React from "react";
 
 function Navbar (){
 
+
     return (
     <div>
       <header class="page-header">
           <nav class="page-header-navbar">
           <ul>
-            <li>Inicio</li>
-            <li>Sobre Nosotros</li>
-            <li>Contactanos</li>
+            <a href="/"><li>Inicio</li></a>
+            <a href="#contact-us"><li>Sobre Nosotros</li></a>
+            <li><a href="#scroll-footer"><li>Contacto</li></a></li>
           </ul>
         </nav>
       </header>

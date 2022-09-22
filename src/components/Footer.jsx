@@ -9,7 +9,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <div className="social-container">
+    <div className="social-container" id="scroll-footer">
       <div className="social-item">
         <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
