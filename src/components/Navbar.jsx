@@ -5,12 +5,12 @@ function Navbar (){
 
     return (
     <div>
-      <header class="page-header">
-          <nav class="page-header-navbar">
+      <header className="page-header">
+          <nav className="page-header-navbar">
           <ul>
             <a href="/"><li>Inicio</li></a>
             <a href="#contact-us"><li>Sobre Nosotros</li></a>
-            <li><a href="#scroll-footer"><li>Contacto</li></a></li>
+            <a href="#scroll-footer"><li>Contacto</li></a>
           </ul>
         </nav>
       </header>

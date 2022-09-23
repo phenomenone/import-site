@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 function App() {
   let year = new Date().getFullYear();
   return (
-    <div id="parallax-world-of-ugg">
+    <div id="parallax-world-of-ugg" >
 
       <Navbar />
 

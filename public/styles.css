@@ -7,18 +7,20 @@
   font-family: "Oswald", sans-serif;
 }
 
-/* Header - start */
+/* Navbar - start */
 .page-header {
+  background-color: #dad8d847;
   position: fixed;
   width: 80%;
   top: 0;
-  right: 10%;
-  backdrop-filter: blur(10px);
+  right: 9%;
+  backdrop-filter: blur(15px);
   flex: content;
   z-index: 1;
-  margin: 5px;
+  margin: 15px;
+  border: 1px inset #c9c9c937;
   border-radius: 5px;
-  box-shadow: 1px 3px 5px #e7e6e6, -1px -3px 5px #e0dfdf;
+  box-shadow: inset 2px 2px 4px #e0dfdf, inset -2px -2px 5px #e7e6e6;
 }
 .page-header-navbar {
   width: 100%;
@@ -42,9 +44,9 @@
 }
 
 .page-header-navbar ul li:hover {
-  background-color: #c5c5c57f;
-  box-shadow: 3px 4px 10px #b8b7b7, -3px -4px 10px #363636;
-  transition: .5s ease-in-out;
+  background-color: #dbf7f77f;
+  box-shadow: 3px 4px 10px #e7e6e6, -3px -4px 10px #e0dfdf;
+  transition: .5s ease-in-out all;
 }
 
 a{
@@ -53,13 +55,37 @@ a{
   width: 100%;
 }
 
-/* Header - End*/
+/* Navbar - End*/
+
 p {
   text-align: center;
 }
 
 
+.shinning {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: larger;
+  background: linear-gradient(90deg, rgb(237, 237, 237), #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(220, 219, 219, 0);
+}
+p.shinning{
+  font-size: 10em;
+}
 
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+ 
+  100% {
+    background-position: 500%;
+  }
+}
 /* Helpers */
 
 #parallax-world-of-ugg {
@@ -161,7 +187,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   opacity: 0.7;
 }
 
@@ -172,7 +198,7 @@ p {
   font-size: 45px;
 }
 #parallax-world-of-ugg .parallax-one {
-  margin-top: 7%;
+  margin-top: 11%;
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
@@ -187,10 +213,9 @@ p {
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px;
-  box-shadow: 3px 4px 10px #b8b7b7,
-  -3px -4px 10px #363636;
-}
 
+  box-shadow: inset 3px 5px 10px #e7e6e6, inset -3px -4px 10px #e0dfdf;
+}
 #parallax-world-of-ugg .parallax-two h2 {
   font-size: 45px;
 }
@@ -209,8 +234,7 @@ p {
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px;
-  box-shadow: 3px 4px 10px #b8b7b7,
-  -3px -4px 10px #363636;
+  box-shadow: inset 3px 4px 10px #e7e6e6, inset -3px -4px 10px #e0dfdf;
 }
 
 #parallax-world-of-ugg .parallax-three h2 {
@@ -231,8 +255,7 @@ p {
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 10px;
-  box-shadow: 3px 4px 10px #b8b7b7,
-  -3px -4px 10px #363636;
+  box-shadow: inset 3px 5px 10px #e7e6e6, inset -3px -4px 10px #e0dfdf;
 }
 
 /* Style inputs with type="text", select elements and textareas */
