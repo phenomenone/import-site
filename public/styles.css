@@ -7,6 +7,7 @@
   font-family: "Oswald", sans-serif;
 }
 
+
 /* Navbar - start */
 .page-header {
   position: fixed;
@@ -336,13 +337,11 @@ input[type="submit"]:hover {
 .social-container {
   display: flex;
   justify-content: center;
-  margin-top: 1px;
+  margin-bottom: 3%;
 }
 
 .social-container a {
   color: #fff;
-  background-color: transparent;
-  border-radius: 4px;
   text-align: center;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
@@ -350,19 +349,11 @@ input[type="submit"]:hover {
   display: block;
   width: 50px;
   height: 38px;
-  padding-top: 11px;
-  margin: 0 2px;
-  -o-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s ease-in-out;
-  -webkit-font-smoothing: antialiased;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .social-container a:hover {
-  background-color: #b3b1ae7c;
-  box-shadow: 2px 2px 10px #b8b6b6,
-  -2px -2px 10px #f8f6f6;
   font-size: 20px;
   transition: all 0.1s ease-in-out;
   padding-top: 8px;
