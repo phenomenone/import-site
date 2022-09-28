@@ -11,17 +11,17 @@ function Footer() {
   return (
     <div className="social-container" id="scroll-footer">
       <div className="social-item">
-        <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com/Desdelmundo" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
       <div className="social-item">
-        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=100086414527208" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFacebook} />
         </a>
       </div>
       <div className="social-item">
-        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/dsdlmundo/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </div>
