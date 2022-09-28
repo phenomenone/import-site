@@ -5,8 +5,8 @@ function Block(props){
         <section>
         <div className="block">
           <p>
-            <span className={props.capLetterColor}>B</span>
-            {props.paragraph1}
+            <span className={props.capLetterColor}>S</span>
+            {props.paragraph}
           </p>
         </div>
       </section>

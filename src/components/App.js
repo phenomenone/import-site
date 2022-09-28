@@ -16,16 +16,14 @@ function App() {
 
       <Block
         capLetterColor="first-character bo"
-        paragraph1={content[0].paragraph1}
-        paragraph2={content[0].paragraph2}
+        paragraph={content[0].paragraph1}
       />
 
       <Paralax paralax="parallax-two" country="ECUADOR" form={false} />
 
       <Block
         capLetterColor="first-character ec"
-        paragraph1={content[0].paragraph1}
-        paragraph2={content[0].paragraph2}
+        paragraph={content[0].paragraph2}
       />
 
       <Paralax paralax="parallax-three" country="CONTACTANOS" form={true} />

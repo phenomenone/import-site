@@ -341,7 +341,7 @@ input[type="submit"]:hover {
 }
 
 .social-container a {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.497);
   text-align: center;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
@@ -354,9 +354,8 @@ input[type="submit"]:hover {
 }
 
 .social-container a:hover {
-  font-size: 20px;
-  transition: all 0.1s ease-in-out;
-  padding-top: 8px;
+  transform: rotate(1turn);
+  transition: all 1s ease-in-out;
 }
 
 .copy-rights{
@@ -403,6 +402,7 @@ input[type="submit"]:hover {
     padding-top: 50px;
     padding-bottom: 18px;
   }
+
   .contact-form {
     width: 100%;
     margin: auto;
