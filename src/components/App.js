@@ -18,9 +18,10 @@ function App() {
         capLetterColor="first-character bo"
         paragraph={content[0].paragraph1}
       />
-
+      
       <Paralax paralax="parallax-two" country="ECUADOR" form={false} />
 
+    
       <Block
         capLetterColor="first-character ec"
         paragraph={content[0].paragraph2}
