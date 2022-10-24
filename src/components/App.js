@@ -1,8 +1,8 @@
 import React from "react";
-import content from "../content";
 import Block from "./Block";
 import Paralax from "./Paralax";
 import Navbar from "./Navbar";
+
 
 
 function App() {
@@ -13,19 +13,15 @@ function App() {
       <Navbar />
 
       <Paralax paralax="parallax-one" country="" form={false} />
+      <div id="about-us">
+      <h5>Sobre Nosotros</h5>
+      </div>
 
-      <Block
-        capLetterColor="first-character bo"
-        paragraph={content[0].paragraph1}
-      />
+      <Block/>
       
       <Paralax paralax="parallax-two" country="ECUADOR" form={false} />
-
     
-      <Block
-        capLetterColor="first-character ec"
-        paragraph={content[0].paragraph2}
-      />
+      <Block/>
 
       <Paralax paralax="parallax-three" country="CONTACTANOS" form={true} />
 

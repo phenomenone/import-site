@@ -9,7 +9,7 @@ function Navbar (){
           <nav className="page-header-navbar">
           <ul>
             <a href="/"><li>Inicio</li></a>
-            <a href="#contact-us"><li>Sobre Nosotros</li></a>
+            <a href="#about-us"><li>Sobre Nosotros</li></a>
             <a href="#scroll-footer"><li>Contacto</li></a>
           </ul>
         </nav>
