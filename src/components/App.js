@@ -2,6 +2,7 @@ import React from "react";
 import Block from "./Block";
 import Paralax from "./Paralax";
 import Navbar from "./Navbar";
+import Logo from "./Logo";
 
 
 
@@ -21,7 +22,7 @@ function App() {
       
       <Paralax paralax="parallax-two" country="ECUADOR" form={false} />
     
-      <Block/>
+      <Logo/>
 
       <Paralax paralax="parallax-three" country="CONTACTANOS" form={true} />
 

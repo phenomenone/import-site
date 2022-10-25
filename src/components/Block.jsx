@@ -60,13 +60,7 @@ function Block() {
         <span>T</span>
         <span>O</span>
         <span>S</span>
-      </div>
-
-      <div className="words word-2">
-
-      </div>
-
-      <div className="words word-3">
+        <span>&nbsp;</span>
         <span>D</span>
         <span>E</span>
         <span>&nbsp;</span>
